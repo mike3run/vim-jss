@@ -57,8 +57,3 @@ syntax cluster CSS
 \          cssAttrRegion
 
 syn region JssTag start=/const JSS = `/ keepend contains=@htmlCss,@CSS end='`'
-
-if exists('s:current_syntax')
-  runtime! syntax/javascript.vim
-  let b:current_syntax=s:current_syntax
-endif
